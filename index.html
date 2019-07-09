@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Sarala&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background: #93B5BD;
+            font-family: 'Sarala', sans-serif;
+        }
+        #top {
+            background-image: url("coding.jpg");
+            background-size: cover;
+            height: 41em;
+        }
+        .adjust {
+            margin: 0 2em;
+        }
+        .white-text {
+            text-align: center;
+        }
+        .head {
+            padding-top: 2.5em;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Nick Sosa's Personal Site</title>
+</head>
+<body>
+<nav>
+    <div class="nav-wrapper">
+        <a href="#" class="brand-logo adjust"><img class="circle responsive-img" src="https://dummyimage.com/90x90/000/fff" alt=""></a>
+        <a href="#" data-target="mobile-view" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li class="adjust"><a href="#">About Me</a></li>
+            <li class="adjust"><a href="#">Projects</a></li>
+            <li class="adjust"><a href="#">Résumé</a></li>
+            <li class="adjust"><a href="#">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<ul class="sidenav" id="mobile-view">
+    <li><a href="#">About Me</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Résumé</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+
+<div id="top">
+    <div class="container">
+        <h1 class="white-text head">Nicholas Sosa</h1>
+        <h4 class="white-text">Full-Stack Web Developer</h4>
+    </div>
+</div>
+
+
+
+<!--JavaScript at end of body for optimized loading-->
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('.sidenav').sidenav();
+    })
+</script>
+</body>
+</html>
