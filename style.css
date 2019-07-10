@@ -1,0 +1,30 @@
+/*colors:*/
+/*FAF9F9*/
+/*8AA2C9*/
+/*72ADD8*/
+/*508AC6*/
+/*223468*/
+
+body {
+    background: #223468;
+    font-family: 'Sarala', sans-serif;
+}
+#top {
+    background-image: url("coding.jpg");
+    background-size: cover;
+    height: 41em;
+}
+.adjust {
+    margin: 0 2em;
+}
+.white-text {
+    text-align: center;
+}
+.head {
+    padding-top: 2.5em;
+}
+#about {
+    background-color: #508AC6;
+    height: 35em;
+    width: auto;
+}
